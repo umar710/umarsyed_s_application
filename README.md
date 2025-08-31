@@ -2,6 +2,12 @@
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
 
+## 🌍 Live Deployment
+
+The application is deployed and available at:  
+👉 [https://reactwebappumar.netlify.app/](https://reactwebappumar.netlify.app/)
+
+
 ## 🚀 Features
 
 - **React 18** - React version with improved rendering and concurrent features
