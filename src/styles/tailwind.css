@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Background Colors */
+    --bg-primary: #fbf9f6;
+    --bg-secondary: #ffffff;
+    --bg-dark: #000000;
+    --bg-blue: #0085ca;
+    --bg-navy: #203e96;
+    --bg-green: #3bad4e;
+    --bg-gray-light: #f1f1f1;
+    --bg-gray: #f2f2f2;
+    --bg-purple: #830065;
+    --bg-pink: #ce0f69;
+    --bg-red: #e10600;
+    --bg-orange: #e87722;
+    --bg-yellow: #f1b434;
+    --bg-gray-overlay: #66666626;
+
+    /* Text Colors */
+    --text-primary: #313131;
+    --text-secondary: #666666;
+    --text-blue: #0085ca;
+    --text-green: #087f1a;
+    --text-navy: #203e96;
+    --text-green-bright: #3bad4e;
+    --text-purple: #830065;
+    --text-pink: #ce0f69;
+    --text-red: #e10600;
+    --text-orange: #e87722;
+    --text-yellow: #f39c12;
+    --text-white: #ffffff;
+    --text-light-gray: #eeeeee;
+    --text-primary-alpha: #313131bf;
+
+    /* Button Colors */
+    --button-bg: #313131;
+    --button-text: #ffffff;
+    --button-accent: #f1b434;
+  }
+}
+
+@layer utilities {
+  /* Background Colors */
+  .bg-primary {
+    background-color: var(--bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--bg-secondary);
+  }
+  .bg-button-accent {
+    background-color: var(--button-accent);
+  }
+  .bg-button-primary {
+    background-color: var(--button-bg);
+  }
+
+  /* Text Colors */
+  .text-primary {
+    color: var(--text-primary);
+  }
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  .text-button {
+    color: var(--button-text);
+  }
+}
